@@ -1,0 +1,1706 @@
+@media (min-width: 1201px) {
+    .Container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 3fr;
+        height: 100%;
+    }
+
+    .Left {
+        background-color: #4cb9e715;
+    }
+
+    .Container .Left .Imagery>img {
+        width: 60%;
+        border: 2px solid #4CB9E7;
+        border-radius: 10px;
+    }
+
+    .Container .Left>.Imagery {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Left .Information .Title>h2 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    .Container .Left .Information>.Title {
+        border-bottom: 2.5px solid #4CB9E7;
+    }
+
+    .Container .Left>.Information {
+        margin-left: 40px;
+    }
+
+    .Container .Left .Information .Description>h3 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    .Container .Left .Information .Description>p {
+        color: #7d7c7c;
+        font-family: 'Outfit', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        color: #7d7c7c;
+    }
+
+    .Container .Left .Contact .Block>.Content {
+        margin-top: -25px;
+    }
+
+    .Container .Left>.Imagery {
+        margin-bottom: 70px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        font-family: 'Outfit', sans-serif;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Left>.Contact {
+        margin-top: 65px;
+    }
+
+    .Container .Left .Block .Content .Title .Info>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 18px;
+        height: 25px;
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    .Container .Left .Block .Content>.Title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .Container .Left .Contact > .Block {
+        margin-left: 40px;
+    }
+
+
+
+    /* .Container .Left .Block .Content .Title>.Color {
+        width: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .Container .Left .Block .Content .Title .Color>.Colored {
+        height: 20px;
+        width: 40px;
+    } */
+
+    .Container .Left .Block .Information>p {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right>.Name {
+        background-color: #4CB9E7;
+        padding: 40px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h1 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 900;
+        font-size: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name>.Named {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 300;
+        margin-top: -60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name .Named h1>span {
+        font-weight: 300;
+    }
+
+    .Container .Right .Name>.Named {
+        width: 100%;
+    }
+
+    .Container .Right .Content {
+        padding: 40px;
+    }
+
+    .Container .Right .Content .Title>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    .Container .Right>#One {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Information>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+
+    }
+
+    .Container .Right .Content>.Block {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .Container .Right>#Two {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Block .Duration>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+    .Container .Right .Content .Block .Information .Title>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .Container .Right .Content .Block .Information>.Subtitle {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Block .Information>.Description {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Right .Content>.Block {
+        margin-bottom: 20px;
+    }
+
+    .Container .Right .Content>.Details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .Container .Right .Content .Details .Box>label {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Details>.Box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #7d7c7c;
+        width: 100%;
+    }
+
+    progress {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5px;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #4CB9E7 !important;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right .Footer>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .Container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 3fr;
+        height: 100%;
+    }
+
+    .Left {
+        background-color: #4cb9e715;
+    }
+
+    .Container .Left .Imagery>img {
+        width: 60%;
+        border: 2px solid #4CB9E7;
+        border-radius: 10px;
+    }
+
+    .Container .Left>.Imagery {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Left .Information .Title>h2 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    .Container .Left .Information>.Title {
+        border-bottom: 2.5px solid #4CB9E7;
+    }
+
+    .Container .Left>.Information {
+        margin-left: 40px;
+    }
+
+    .Container .Left .Information .Description>h3 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    .Container .Left .Information .Description>p {
+        color: #7d7c7c;
+        font-family: 'Outfit', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        color: #7d7c7c;
+    }
+
+    .Container .Left .Contact .Block>.Content {
+        margin-top: -25px;
+    }
+
+    .Container .Left>.Imagery {
+        margin-bottom: 70px;
+    }
+
+    .Container .Left .Contact .Block .Information> p {
+        font-family: 'Outfit', sans-serif;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 300;
+        text-wrap: wrap;
+    }
+
+    .Container .Left .Contact > .Block {
+        margin-left: 40px;
+    }
+
+    .Container .Left>.Contact {
+        margin-top: 65px;
+    }
+
+    .Container .Left .Block .Content .Title .Info>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 18px;
+        height: 25px;
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    .Container .Left .Block .Content>.Title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .Container .Left .Block .Content>.Title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* .Container .Left .Block .Content .Title>.Color {
+        width: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .Container .Left .Block .Content .Title .Color>.Colored {
+        height: 20px;
+        width: 40px;
+    } */
+
+    .Container .Left .Block .Information>p {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right>.Name {
+        background-color: #4CB9E7;
+        padding: 40px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h1 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 900;
+        font-size: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name>.Named {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 300;
+        margin-top: -60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name .Named h1>span {
+        font-weight: 300;
+    }
+
+    .Container .Right .Name>.Named {
+        width: 100%;
+    }
+
+    .Container .Right .Content {
+        padding: 40px;
+    }
+
+    .Container .Right .Content .Title>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    .Container .Right>#One {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Information>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+
+    }
+
+    .Container .Right .Content>.Block {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .Container .Right>#Two {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Block .Duration>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+    .Container .Right .Content .Block .Information .Title>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .Container .Right .Content .Block .Information>.Subtitle {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Block .Information>.Description {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Right .Content>.Block {
+        margin-bottom: 20px;
+    }
+
+    .Container .Right .Content>.Details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .Container .Right .Content .Details .Box>label {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Details>.Box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #7d7c7c;
+        width: 100%;
+    }
+
+    progress {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5px;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #4CB9E7 !important;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right .Footer>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 3fr;
+        height: 100%;
+    }
+
+    .Left {
+        background-color: #4cb9e715;
+    }
+
+    .Container .Left .Imagery>img {
+        width: 60%;
+        border: 2px solid #4CB9E7;
+        border-radius: 10px;
+    }
+
+    .Container .Left>.Imagery {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Left .Information .Title>h2 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    .Container .Left .Information>.Title {
+        border-bottom: 2.5px solid #4CB9E7;
+    }
+
+    .Container .Left>.Information {
+        margin-left: 40px;
+    }
+
+    .Container .Left .Information .Description>h3 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    .Container .Left .Information .Description>p {
+        color: #7d7c7c;
+        font-family: 'Outfit', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        color: #7d7c7c;
+    }
+
+    .Container .Left .Contact > .Block {
+        margin-left: 40px;
+    }
+
+    .Container .Left .Contact .Block>.Content {
+        margin-top: -25px;
+    }
+
+    .Container .Left>.Imagery {
+        margin-bottom: 70px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        font-family: 'Outfit', sans-serif;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Left>.Contact {
+        margin-top: 65px;
+    }
+
+    .Container .Left .Block .Content .Title .Info>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 18px;
+        height: 25px;
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    .Container .Left .Block .Content>.Title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .Container .Left .Block .Content>.Title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* .Container .Left .Block .Content .Title>.Color {
+        width: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .Container .Left .Block .Content .Title .Color>.Colored {
+        height: 20px;
+        width: 40px;
+    } */
+
+    .Container .Left .Block .Information>p {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right>.Name {
+        background-color: #4CB9E7;
+        padding: 40px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h1 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 900;
+        font-size: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name>.Named {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 300;
+        margin-top: -60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name .Named h1>span {
+        font-weight: 300;
+    }
+
+    .Container .Right .Name>.Named {
+        width: 100%;
+    }
+
+    .Container .Right .Content {
+        padding: 40px;
+    }
+
+    .Container .Right .Content .Title>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    .Container .Right>#One {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Information>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+
+    }
+
+    .Container .Right .Content>.Block {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .Container .Right>#Two {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Block .Duration>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+    .Container .Right .Content .Block .Information .Title>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .Container .Right .Content .Block .Information>.Subtitle {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Block .Information>.Description {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Right .Content>.Block {
+        margin-bottom: 20px;
+    }
+
+    .Container .Right .Content>.Details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .Container .Right .Content .Details .Box>label {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Details>.Box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #7d7c7c;
+        width: 100%;
+    }
+
+    progress {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5px;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #4CB9E7 !important;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right .Footer>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .Container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1.5fr 3fr;
+        height: 100%;
+    }
+
+    .Left {
+        background-color: #4cb9e715;
+    }
+
+    .Container .Left .Imagery>img {
+        width: 60%;
+        border: 2px solid #4CB9E7;
+        border-radius: 10px;
+    }
+
+    .Container .Left>.Imagery {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Left .Information .Title>h2 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    .Container .Left .Information>.Title {
+        border-bottom: 2.5px solid #4CB9E7;
+    }
+
+    .Container .Left>.Information {
+        margin-left: 40px;
+    }
+
+    .Container .Left .Information .Description>h3 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    .Container .Left .Information .Description>p {
+        color: #7d7c7c;
+        font-family: 'Outfit', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        color: #7d7c7c;
+    }
+
+    .Container .Left .Contact .Block>.Content {
+        margin-top: -25px;
+    }
+
+    .Container .Left>.Imagery {
+        margin-bottom: 70px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        font-family: 'Outfit', sans-serif;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Left .Contact > .Block {
+        margin-left: 40px;
+    }
+
+    .Container .Left .Contact > .Block {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 40px;
+    }
+
+    .Container .Left>.Contact {
+        margin-top: 65px;
+    }
+
+    .Container .Left .Block .Content .Title .Info>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 18px;
+        height: 25px;
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    .Container .Left .Block .Content>.Title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* .Container .Left .Block .Content .Title>.Color {
+        width: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .Container .Left .Block .Content .Title .Color>.Colored {
+        height: 20px;
+        width: 40px;
+    } */
+
+    .Container .Left .Block .Information>p {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right>.Name {
+        background-color: #4CB9E7;
+        padding: 40px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h1 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 900;
+        font-size: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name>.Named {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 300;
+        margin-top: -60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name .Named h1>span {
+        font-weight: 300;
+    }
+
+    .Container .Right .Name>.Named {
+        width: 100%;
+    }
+
+    .Container .Right .Content {
+        padding: 40px;
+    }
+
+    .Container .Right .Content .Title>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    .Container .Right>#One {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Information>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+
+    }
+
+    .Container .Right .Content>.Block {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .Container .Right>#Two {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Block .Duration>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+    .Container .Right .Content .Block .Information .Title>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .Container .Right .Content .Block .Information>.Subtitle {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Block .Information>.Description {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Right .Content>.Block {
+        margin-bottom: 20px;
+    }
+
+    .Container .Right .Content>.Details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .Container .Right .Content .Details .Box>label {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Details>.Box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #7d7c7c;
+        width: 100%;
+    }
+
+    progress {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5px;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #4CB9E7 !important;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right .Footer>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .Container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 40% 60%;
+        height: 100%;
+    }
+
+    .Left {
+        background-color: #4cb9e715;
+    }
+
+    .Container .Left .Imagery>img {
+        width: 60%;
+        border: 2px solid #4CB9E7;
+        border-radius: 10px;
+    }
+
+    .Container .Left>.Imagery {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Left .Information .Title>h2 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .Container .Left .Information>.Title {
+        border-bottom: 1.5px solid #4CB9E7;
+    }
+
+    .Container .Left>.Information {
+        margin-left: 10px;
+    }
+
+    .Container .Left .Information .Description>h3 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 12px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    .Container .Left .Information .Description>p {
+        color: #7d7c7c;
+        font-family: 'Outfit', sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        color: #7d7c7c;
+    }
+
+    .Container .Left .Contact .Block>.Content {
+        margin-top: 0px;
+    }
+
+    .Container .Left>.Imagery {
+        margin-bottom: 0px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        font-family: 'Outfit', sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        margin-top: -10px;
+    }
+
+    .Container .Left>.Contact {
+        margin-top: 65px;
+        margin-left: 5px;
+    }
+
+    .Container .Left .Block .Content .Title .Info>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 12px;
+        height: 25px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* padding-left: 10px; */
+    }
+
+     .Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .Container .Left > .Block {
+        margin-left: 10px;
+    }
+
+    /* .Container .Left .Block .Content .Title>.Color {
+        width: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    } */
+
+    /* .Container .Left .Block .Content .Title .Color>.Colored {
+        height: 20px;
+        width: 40px;
+    } */
+
+    .Container .Left .Block .Information>p {
+        margin-top: 0px;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right>.Name {
+        background-color: #4CB9E7;
+        padding: 22px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h1 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 900;
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name>.Named {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 300;
+        margin-top: -15px;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Container .Right .Name .Named h1>span {
+        font-weight: 300;
+    }
+
+    .Container .Right .Name>.Named {
+        width: 100%;
+    }
+
+    .Container .Right .Content {
+        padding: 40px;
+    }
+
+    .Container .Right .Content .Title>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    .Container .Right>#One {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Information>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+
+    }
+
+    .Container .Right .Content>.Block {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .Container .Right>#Two {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Block .Duration>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+    .Container .Right .Content .Block .Information .Title>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .Container .Right .Content .Block .Information>.Subtitle {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Block .Information>.Description {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Right .Content>.Block {
+        margin-bottom: 20px;
+    }
+
+    .Container .Right .Content>.Details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .Container .Right .Content .Details .Box>label {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Details>.Box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #7d7c7c;
+        width: 100%;
+    }
+
+    progress {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5px;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #4CB9E7 !important;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right .Footer>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .Container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 40% 60%;
+        height: 100%;
+    }
+
+    .Left {
+        background-color: #4cb9e715;
+    }
+
+    .Container .Left .Imagery>img {
+        width: 60%;
+        border: 2px solid #4CB9E7;
+        border-radius: 10px;
+    }
+
+    .Container .Left>.Imagery {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Left .Information .Title>h2 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .Container .Left .Information>.Title {
+        border-bottom: 1.5px solid #4CB9E7;
+    }
+
+    .Container .Left>.Information {
+        margin-left: 10px;
+    }
+
+    .Container .Left .Information .Description>h3 {
+        color: #4CB9E7;
+        font-family: 'Outfit', sans-serif;
+        font-size: 12px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    .Container .Left .Information .Description>p {
+        color: #7d7c7c;
+        font-family: 'Outfit', sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .Container .Left .Contact .Block .Information>p {
+        color: #7d7c7c;
+    }
+
+    .Container .Left .Contact .Block>.Content {
+        margin-top: 0px;
+    }
+
+    .Container .Left>.Imagery {
+        margin-bottom: 0px;
+    }
+
+    .Container .Left .Contact .Block .Content .Information > p {
+        font-family: 'Outfit', sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        margin-top: -10px;
+        word-wrap: wrap;
+        word-break: break-all;
+    }
+
+    .Container .Left>.Contact {
+        margin-top: 65px;
+        margin-left: 5px;
+    }
+
+    .Container .Left .Block .Content .Title .Info>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 12px;
+        height: 25px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* padding-left: 10px; */
+    }
+
+     .Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .Container .Left > .Block {
+        margin-left: 10px;
+    }
+
+    /* .Container .Left .Block .Content .Title>.Color {
+        width: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    } */
+
+    /* .Container .Left .Block .Content .Title .Color>.Colored {
+        height: 20px;
+        width: 40px;
+    } */
+
+    .Container .Left .Block .Information>p {
+        margin-top: 0px;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right>.Name {
+        background-color: #4CB9E7;
+        padding: 22px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h1 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 900;
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container .Right .Name>.Named {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Container .Right .Name .Named>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: white;
+        font-weight: 300;
+        margin-top: -15px;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .Container .Right .Name .Named h1>span {
+        font-weight: 300;
+    }
+
+    .Container .Right .Name>.Named {
+        width: 100%;
+    }
+
+    .Container .Right .Content {
+        padding: 40px;
+    }
+
+    .Container .Right .Content .Title>h2 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    .Container .Right>#One {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Information>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+
+    }
+
+    .Container .Right .Content>.Block {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .Container .Right>#Two {
+        margin-top: -50px;
+    }
+
+    .Container .Right .Content .Block .Duration>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+    .Container .Right .Content .Block .Information .Title>h3 {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .Container .Right .Content .Block .Information>.Subtitle {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Block .Information>.Description {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .Container .Right .Content>.Block {
+        margin-bottom: 20px;
+    }
+
+    .Container .Right .Content>.Details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .Container .Right .Content .Details .Box>label {
+        font-family: 'Outfit', sans-serif;
+        color: #4CB9E7;
+        margin-bottom: 5px;
+    }
+
+    .Container .Right .Content .Details>.Box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #7d7c7c;
+        width: 100%;
+    }
+
+    progress {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5px;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #4CB9E7 !important;
+    }
+
+    #Left {
+        margin-bottom: 100px;
+    }
+
+    .Container .Right .Footer>p {
+        font-family: 'Outfit', sans-serif;
+        color: #7d7c7c;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+}
